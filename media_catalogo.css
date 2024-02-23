@@ -1,0 +1,24 @@
+@media screen and (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+  }
+  .banner-2 {
+    background: url("img/imagens-atualizadas/captainmarvelheader_Mobile.jpg")
+      no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position-x: left;
+    height: 90svh;
+  }
+  .capitan img {
+    display: none;
+  }
+
+  .item {
+    width: 800px;
+  }
+
+  .main section {
+    flex-direction: column;
+  }
+}
